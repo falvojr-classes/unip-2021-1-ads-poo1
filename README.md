@@ -17,9 +17,9 @@
 1. [Polimorfismo](https://drive.google.com/open?id=1wjhXtCKZVy3b4l2rlqco_yTuPX9dm05GZI8NF9Wjevs)
 
 ### Tópicos Extras (Projeto Base)
-1. Padrões de Projeto
-1. Persistência
-1. Plataforma .NET
+- Padrões de Projeto
+- Persistência
+- Plataforma .NET
 
 ## Bibliografia
 
