@@ -21,6 +21,10 @@
 - Persistência
 - Plataforma .NET
 
+## Equipe no Teams
+
+[Link para o canal](https://teams.microsoft.com/l/channel/19%3a5962896c41f8422b99e89ba2fd4a7815%40thread.tacv2/Geral?groupId=f37c21e7-eaaf-4d08-9ed3-a64ec8165cfd&tenantId=d193e68c-e53f-4610-a66d-56ff300fec7a)
+
 ## Bibliografia
 
 ### Básica
