@@ -1,8 +1,8 @@
-namespace Exercicio08v2
+namespace Exercicio08
 {
     public class Conta
     {
-        public long Numero;
+        public string Numero;
         public string Agencia;
         public double Limite;
         public double Saldo;
