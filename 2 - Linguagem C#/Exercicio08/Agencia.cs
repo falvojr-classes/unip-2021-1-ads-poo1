@@ -1,8 +1,8 @@
 namespace Exercicio08
 {
-    public class Cartao
+    public class Agencia
     {
         public long Numero;
-        public double Limite;
+        public string Nome;
     }
 }
