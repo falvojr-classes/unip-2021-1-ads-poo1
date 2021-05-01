@@ -30,6 +30,7 @@ namespace Exercicio03
             {
                 // Simula a entrada a 3 dias atrás.
                 Entrada = DateTime.Now.AddDays(-3);
+                Quarto.Disponivel = false;
             }
         }
 
@@ -43,6 +44,8 @@ namespace Exercicio03
             Console.WriteLine("Todos os Hospedes: {0}", string.Join(", ", Hospedes.ConvertAll(cliente => cliente.Nome)));
             Console.WriteLine("Total: R${0:0.00}", total);
             Console.WriteLine("============================");
+
+            Quarto.Disponivel = true;
         }
 
         private double CalcularTotal()

@@ -29,11 +29,6 @@ namespace Exercicio03
             gerente.Nome = "Paula";
             gerente.Cracha = 2;
 
-            // Criar serviços disponíveis (valor fixo)
-            Servico lavanderia = new Servico();
-            lavanderia.Nome = "Lavanderia";
-            lavanderia.Valor = 50.00;
-
             // Criar os clientes do Hotel
             Cliente joao = new Cliente();
             joao.Nome = "João";
@@ -52,13 +47,10 @@ namespace Exercicio03
             estadia1.Quarto = casal;
             estadia1.CheckIn();
 
-            Servico frigobar = new Servico();
-            frigobar.Nome = "Bebidas";
-            frigobar.Valor = 20.00;
-
-            estadia1.Servicos.Add(lavanderia);
+            Servico frigobar = new Servico("Bebidas", 20.00);
+            estadia1.Servicos.Add(Servico.Lavandeira);
             estadia1.Servicos.Add(frigobar);
-            estadia1.Servicos.Add(lavanderia);
+            estadia1.Servicos.Add(Servico.Lavandeira);
 
             estadia1.CheckOut();
 

@@ -1,6 +1,6 @@
 namespace Exercicio01
 {
-    public abstract class Animal
+    public abstract class Animal : IAnimal
     {
         public string Nome { get; set; }
         public string Genero { get; set; }
