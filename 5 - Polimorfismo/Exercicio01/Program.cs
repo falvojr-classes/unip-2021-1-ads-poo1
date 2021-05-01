@@ -24,6 +24,16 @@ namespace Exercicio02
             Console.WriteLine("{0}: R${1:0.00}", vendedor.Nome, vendedor.CalcularSalario());
             Console.WriteLine("{0}: R${1:0.00}", consultor.Nome, consultor.CalcularSalario());
             Console.WriteLine("{0}: R${1:0.00}", gerente.Nome, gerente.CalcularSalario());
+
+            // Aula 30/04: Controle de Ponto
+            ControlePonto controlePonto = new ControlePonto();
+            controlePonto.RegistrarEntrada(gerente);
+            controlePonto.RegistrarEntrada(consultor);
+            controlePonto.RegistrarEntrada(vendedor);
+
+            controlePonto.RegistrarSaida(gerente);
+            controlePonto.RegistrarSaida(consultor);
+            controlePonto.RegistrarSaida(vendedor);
         }
     }
 }
