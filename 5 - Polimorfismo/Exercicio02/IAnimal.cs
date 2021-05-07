@@ -1,4 +1,4 @@
-namespace Exercicio01
+namespace Exercicio02
 {
     public interface IAnimal
     {

@@ -1,20 +1,31 @@
 ﻿using System;
 
-namespace Exercicio01
+namespace Exercicio02
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Gato gato = new Gato();
-            gato.Nome = "Tom";
+            Elefante elefante = new Elefante();
+            elefante.Apelido = "Dumbo";
 
-            Pombo pombo = new Pombo();
-            pombo.Nome = "Pombo";
+            Leao leao = new Leao();
+            leao.Apelido = "Simba";
 
-            Veterinario joao = new Veterinario();
-            joao.Examinar(gato);
-            joao.Examinar(pombo);
+            Preguica preguica = new Preguica();
+            preguica.Apelido = "Cid";
+
+            Zoologico zoo = new Zoologico();
+            zoo.RazaoSocial = "Zoo de Araraquara";
+            zoo.Animais.Add(elefante);
+            zoo.Animais.Add(leao);
+            zoo.Animais.Add(preguica);
+
+            Veterinario veterinario = new Veterinario();
+            veterinario.Nome = "João";
+            veterinario.Examinar(zoo.Animais);
+
+            veterinario.Examinar(preguica);
         }
     }
 }
